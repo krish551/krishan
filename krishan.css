@@ -1,0 +1,219 @@
+ul{
+    
+    list-style: none;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    float:right;
+    justify-content: row;
+    
+    
+}
+
+#img1{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: rgb(33, 127, 4);
+}
+.container{
+    width: 100%;
+    height: 50px; ;
+    background-color: rgb(33, 127, 4);
+    box-shadow: 0 0 5px rgba(223, 211, 211, 0.3);}
+header{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(163, 143, 143, 0.947);
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+#img002{
+    width: 500px;
+    height: 500px;
+   display: flex;
+   float: center;
+   border-radius: 30px;
+   padding: 10px;
+  
+    
+    
+}
+h1{
+    
+    padding:20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    color: rgb(33, 127, 4);
+    text-shadow: 2px 2px 2px rgb(192, 187, 187);
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(163, 143, 143, 0.947);
+    margin: 10px;
+    border-radius: 5px;
+   
+}
+h2{
+    padding:20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    color: rgb(33, 127, 4);
+    text-shadow: 2px 2px 2px rgb(192, 187, 187);
+}
+h3{
+    padding:20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    color: rgb(33, 127, 4);
+    text-shadow: 2px 2px 2px rgb(192, 187, 187);
+}
+p{
+    padding:20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(192, 187, 187);
+}
+.foto{
+    display: flex;
+    flex-direction:left;
+    justify-content: space-evenly;
+    align-items: center;
+    float: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float:center;
+    background-color:rgb(86, 209, 49);
+    text-decoration-color: white;
+    border-radius: 5px;
+    width: 33%;
+    margin: 10px;
+    font-size: 30px;
+    
+    
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 5px rgba(163, 143, 143, 0.947);
+}
+.form{
+   float: center;
+   display: flex;
+   flex-direction: column;
+   float:center ;
+   
+   margin: 10px;
+   box-shadow: inset 0 0 5px rgba(163, 143, 143, 0.947);
+   
+}
+h4{
+    padding:20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(192, 187, 187);
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 20%;
+    height: auto;
+    float: left;
+    align-content: center;
+    margin: 20px;
+    padding: auto;
+    perspective: 1000px; 
+}
+
+
+.flip-card-inner {
+    
+    position: relative;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    margin: 10px;
+    padding: auto;
+}
+.flip-card-front {
+    background-color: #ffffff;
+    color: black;
+}
+.flip-card-back {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.assambleren{
+    float: center;
+}
+
